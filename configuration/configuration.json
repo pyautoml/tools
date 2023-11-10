@@ -1,0 +1,45 @@
+{
+    "database": {
+        "mysql":{
+            "dev":{
+                    "db_name": "",
+                    "tables": 
+                    {
+                    }             
+                },
+                "test": {
+                    "db_name": "",
+                    "tables": 
+                    {
+                    }            
+                },
+                "prod": {
+                    "db_name": "",
+                    "tables": 
+                    {
+                    }       
+            }
+        },
+        "redis":{
+            "ssh_host": "",
+            "redis_host": "127.0.0.1",
+            "ssh_port": 22,
+            "redis_port": 6379,
+            "ssh_user": "",
+            "ssh_key_path":""
+        }
+    },
+    "ssh": {
+        "mysql": {
+                "ssh_host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "private_key_path": "",
+                "remote_db_host": "127.0.0.1",
+                "remote_port": 3306,
+                "remote_db_user": "",
+                "remote_user_password": "",
+                "remote_db_password": ""
+            }
+    }
+}
